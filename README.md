@@ -10,4 +10,4 @@ Make changes in *Validation.py* file by specifying the database host, port, user
 python Validation.py
 ```
 ## Output
-The script outputs a csv file mentioning 
+The script outputs a csv file mentioning the KPI, plan names, L5 schema numbers, L3 schema numbers and L2 schema numbers (if available).
