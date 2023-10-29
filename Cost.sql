@@ -1,4 +1,4 @@
-drop  table  if exists empi_count_l5;
+drop  table  if exists  empi_count_l5;
 create temporary table  empi_count_l5 
 as
 select 
