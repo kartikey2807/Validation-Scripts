@@ -1,8 +1,8 @@
 -- Attributed Lives
 select
 a.plan_name,
-a.attributed_lives  as L5_attributed_lives,
-b.attributed_lives  as L3_attributed_lives
+a.attributed_lives as L5_attributed_lives,
+b.attributed_lives as L3_attributed_lives
 from 
 (
 select 
