@@ -19,9 +19,9 @@
 
 ---
 
-***How to Execute:-***
+***Execute:-***
 
-* Install packages from requirements.txt
-* Edit the DB connections
+* ```pip install requirements.txt```
+* Edit the DB connections in ```L3_L5_Validation.py```
 * Edit the month/year for which the metrics have to be calculated
-* Run the *L3_L5_Validation.py* file
+* ```python L3_L5_Validation.py```
