@@ -10,12 +10,12 @@
 ***Categories:-***
 | Dashboards | Descriptions |
 |:---------- |:------------ |
-| Attribution | Tracks Enrollments / Disenrollments, deaths, and patient leakage across organizations |
-| Cost | Tracks customer spend for Inpatient/Emergency/SNF admits |
-| Medication | Tracks customer spend on drugs and suggests generic alternatives |
-| Provider Performance | Ranks physicians based on quality of care, readmits and pre-emptive diagnoses |
+| Attribution | Tracks Enrollments/Disenrollments, and Patient Leakages |
+| Cost | Tracks customer spend for inpatient, ED, and SNF admits |
+| Risk | Tracks the risk and associated costs for patients (e.g., BP) |
+| Medication | Tracks expenditure on medications and suggests alternatives |
+| Provider Performance | Ranks physicians based on quality, readmissions, and risk recapture rates |
 | Quality | Measure-wise realization of *value based services* provided to the target demographics |
-| Risk | Tracks the risk for patients (eg. diabetic, high bp, etc.) and estimates associated cost |
 
 ---
 
@@ -23,5 +23,5 @@
 
 * Install packages from requirements.txt
 * Edit the DB connections
-* Edit the month/year for which the metrics have to be calcualated
+* Edit the month/year for which the metrics have to be calculated
 * Run the *L3_L5_Validation.py* file
