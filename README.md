@@ -7,21 +7,19 @@
 
 ---
 
-***Categories:-***
+***Categories***
 | Dashboards | Descriptions |
 |:---------- |:------------ |
-| Attribution | Tracks Enrollments/Disenrollments, and Patient Leakages |
-| Cost | Tracks customer spend for inpatient, ED, and SNF admits |
-| Risk | Tracks the risk and associated costs for patients (e.g., BP) |
-| Medication | Tracks expenditure on medications and suggests alternatives |
+| Attribution | Enrollments/Disenrollments, and Patient Leakages |
+| Cost | Customer spend for inpatient, ED, and SNF admits |
+| Risk | Risk and associated costs for patients (e.g., BP) |
+| Medication | Expenditure on medications and alternative medications|
 | Provider Performance | Ranks physicians based on quality, readmissions, and risk recapture rates |
-| Quality | Measure-wise realization of *value based services* provided to the target demographics |
+| Quality | Computes quality score per measure, as a metric for **value-based care**|
 
 ---
 
-***Execute:-***
-
-* ```pip install requirements.txt```
-* Edit the DB connections in ```L3_L5_Validation.py```
-* Edit the month/year for which the metrics have to be calculated
+***Execute***
+* `pip install requirements.txt`
+* `L3_L5_Validation.py` edit DB urls and month/year.
 * ```python L3_L5_Validation.py```
