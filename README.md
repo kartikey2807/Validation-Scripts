@@ -1,5 +1,4 @@
 # Validation Scripts
-
 * Results are shared with the customer for auditing
 * Checks for data consistency
 * Applied b/w L5 and L3 schemas
