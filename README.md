@@ -1,25 +1,17 @@
 # Validation Scripts
 
+* Results are shared with the customer for auditing
 * Checks for data consistency
-* Applied b/w L3 and L3 schemas
-* Data gets pushed onto dashboards
-* And results are shared with the customer for internal auditing.
+* Applied b/w L5 and L3 schemas
 
 ---
 
-***Categories***
+**Categories**
 | Dashboards | Descriptions |
 |:---------- |:------------ |
-| Attribution | Enrollments/Disenrollments, and Patient Leakages |
-| Cost | Customer spend for inpatient, ED, and SNF admits |
+| Attribution | Dis-/enrollments and patient leakages |
+| Cost | Spend for inpatient, ED, and SNF admits |
 | Risk | Risk and associated costs for patients (e.g., BP) |
 | Medication | Expenditure on medications and alternative medications|
-| Provider Performance | Ranks physicians based on quality, readmissions, and risk recapture rates |
-| Quality | Computes quality score per measure, as a metric for **value-based care**|
-
----
-
-***Execute***
-* `pip install requirements.txt`
-* `L3_L5_Validation.py` edit DB urls and month/year.
-* ```python L3_L5_Validation.py```
+| Provider Performance | Ranks physicians wrt. quality, readmissions, and risk recapture rates |
+| Quality | quality score per measure, as a metric for **value-based care**|
