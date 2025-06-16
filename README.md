@@ -10,7 +10,7 @@
 |:---------- |:------------ |
 | Attribution | Dis-/enrollments and patient leakages |
 | Cost | Spend for inpatient, ED, and SNF admits |
-| Risk | Risk and associated costs for patients (e.g., BP) |
+| Risk | Risk and associated costs for patients (e.g., B.P.) |
 | Medication | Expenditure on medications and alternative medications|
 | Provider Performance | Ranks physicians wrt. quality, readmissions, and risk recapture rates |
 | Quality | quality score per measure, as a metric for **value-based care**|
